@@ -1,6 +1,5 @@
 ###
 # Program demonstrujący działanie generatora liczb losowych.
-#
 
 import random
 
