@@ -1,6 +1,5 @@
 ###
-# Program odczytujący kod SWIFT z klawiatury
-# i wyświetlający kod banku oraz kod kraju.
+# Program odczytujący kod SWIFT z klawiatury i wyświetlający kod banku oraz kod kraju.
 #
 
 swift = input('Enter SWIFT code: ')
