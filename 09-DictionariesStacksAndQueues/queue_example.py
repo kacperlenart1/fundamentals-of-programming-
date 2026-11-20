@@ -10,18 +10,18 @@ waiting for a service — the person who arrives first
 is served first.
 """
 
-# creates a queue
+# Tworzymy kolejkę.
 people = queue.Queue()
 
-# adds items to the end of the queue
+# Dodajemy elementy na koniec kolejki.
 people.put('Michael')    
 people.put('Charlotte')  
 people.put('Olivia')     
 
-## prints number of elements of the queue
+## Wypisujemy liczbę elementów kolejki.
 print('Number of queue elements:', people.qsize())
 
-# gets and prints items from the queue
+# Pobieramy i wypisujemy elementy z początku kolejki.
 while not people.empty():
     person = people.get()
     print(person)

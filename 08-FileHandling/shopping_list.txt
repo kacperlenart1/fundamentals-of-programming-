@@ -1,0 +1,19 @@
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/08-FileHandling/2.4.py
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/08-FileHandling/2.4.py
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/08-FileHandling/2.4.py
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/08-FileHandling/2.4.py
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/08-FileHandling/4.5.py
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/08-FileHandling/2.5.py
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/08-FileHandling/2.5.py
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/08-FileHandling/2.5.py
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/08-FileHandling/2.5.py
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/08-FileHandling/2.5.py
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/08-FileHandling/2.5.py
+messi
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/09-DictionariesStacksAndQueues/5.23.py
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/09-DictionariesStacksAndQueues/5.23.py
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/09-DictionariesStacksAndQueues/5.23.py
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/09-DictionariesStacksAndQueues/5.23.py
+1
+23
+C:\Users\Kacper\AppData\Local\Python\pythoncore-3.15-64\python.exe c:/Users/Kacper/OneDrive/Pulpit/fundamentals-of-programming-/09-DictionariesStacksAndQueues/5.23.py

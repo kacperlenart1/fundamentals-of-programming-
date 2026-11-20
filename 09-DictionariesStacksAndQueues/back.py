@@ -1,25 +1,27 @@
 import queue
 
-# create a visited_websites
+# Stos przechowujący historię odwiedzonych stron.
 visited_websites = queue.LifoQueue()
+for website in ("instagram.com", "uek.krakow.pl", "microsoft.com"):
+    visited_websites.put(website)
 
-# some previously visited websites
-visited_websites.put('instagram.com')
-visited_websites.put('uek.krakow.pl')
-visited_websites.put('microsoft.com')
+current_website = "microsoft.com"
 
 while True:
-   website = input('Enter website name (0 for back): ')
+    website = input("Enter website name (0 for back): ").strip()
 
-   if website == '0':
-      if visited_websites.empty():
-         break
-      else:
-         print('<-- Going back to a previously visited website')
-         website = ...
-   elif ... != "":
-      ...
+    if website == "0":
+        if not visited_websites.empty():
+            visited_websites.get()  # Usuwamy bieżącą stronę z historii.
+        if visited_websites.empty():
+            print("No previously visited website.")
+            break
+        current_website = visited_websites.get()  # Pobieramy poprzednią stronę.
+        visited_websites.put(current_website)  # Zostawiamy ją jako bieżącą.
+        print("<-- Going back to a previously visited website")
+    elif website:
+        current_website = website
+        visited_websites.put(current_website)
 
-   # print name of website you are currently viewing
-   print('You are currently viewing:', website)
-   print()
+    print("You are currently viewing:", current_website)
+    print()

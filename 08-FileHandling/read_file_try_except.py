@@ -1,9 +1,12 @@
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 ###
-# Reads a non-existent file
-# with try-except block
+# Próbujemy odczytać nieistniejący plik.
+# Obsługujemy błąd za pomocą bloku try-except.
 #
 
-# there is no file with this name on the disk
+# Na dysku nie ma pliku o tej nazwie.
 file_name = 'xyz.txt'
 
 try:

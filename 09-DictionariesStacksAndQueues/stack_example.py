@@ -9,18 +9,18 @@ as a pile of plates — the last plate you place
 on the top is the first one you'll take off.
 """
 
-# creates a stack
+# Tworzymy stos.
 cards = queue.LifoQueue()
 
-# adds elements to the top of the stack
+# Dodajemy elementy na wierzch stosu.
 cards.put('King of Hearts \u2665')    
 cards.put('Queen of Diamonds \u2666')  
 cards.put('Jack of Spades \u2660')     
 
-## prints number of elements of the stack
+## Wypisujemy liczbę elementów stosu.
 print('Number of stack elements:', cards.qsize())
 
-# removes and prints elements from the top of the stack
+# Zdejmujemy i wypisujemy elementy z wierzchu stosu.
 while not cards.empty():
     card = cards.get()
     print(card)

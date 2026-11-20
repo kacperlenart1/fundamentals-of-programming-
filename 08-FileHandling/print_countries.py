@@ -1,6 +1,11 @@
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 ###
-# Reads from file, line by line
+# Odczytujemy plik linia po linii.
 #
 with open('countries.txt', 'r') as file:
+    counter = 1
     for line in file:
-        print(line, end="")
+        print(f"{counter}. {line}", end="")
+        counter += 1
