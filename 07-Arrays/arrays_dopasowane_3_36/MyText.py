@@ -1,13 +1,12 @@
-### PLIK MyText.py: Kompletny moduł z 3 funkcjami analizującymi tekst: liczba słów, od najdłuższych oraz alfabetycznie.
-def word_count(text):  # Funkcja 1: zwraca liczbę słów w tekście.
-    return len(text.split())  # Dzielimy tekst po białych znakach i zwracamy liczbę słów.
+### PLIK 3.18.py: Program testujący funkcje z modułu MyArrays dla ciągu liczb 7, 3, 8, 5, 2.
+import MyArrays  # Importujemy moduł MyArrays z tego samego folderu.
 
+numbers = [7, 3, 8, 5, 2]  # Tablica liczb podana w treści zadania.
+extremes = MyArrays.min_max(numbers)  # Pobieramy dwuelementową tablicę [najmniejsza, największa].
 
-def words_longest_first(text):  # Funkcja 2: zwraca tablicę słów posortowaną od najdłuższych do najkrótszych.
-    words = text.split()  # Pobieramy listę słów z tekstu.
-    return sorted(words, key=len, reverse=True)  # Sortujemy po długości słowa malejąco.
-
-
-def words_alphabetical(text):  # Funkcja 3: zwraca tablicę słów posortowaną alfabetycznie.
-    words = text.split()  # Pobieramy listę słów z tekstu.
-    return sorted(words, key=str.lower)  # Sortujemy bez rozróżniania wielkości liter.
+print("Numbers:", ",".join(str(x) for x in numbers))  # Wypisujemy ciąg liczb oddzielony przecinkami.
+print("Second largest number:", MyArrays.second_largest(numbers))  # Wypisujemy drugą największą liczbę.
+print("Difference between largest and smallest:", MyArrays.diff_min_max(numbers))  # Wypisujemy różnicę między największą a najmniejszą wartością.
+print("Median:", MyArrays.median(numbers))  # Wypisujemy medianę ciągu.
+print(f"Smallest and largest number: {extremes[0]},{extremes[1]}")  # Wypisujemy najmniejszą i największą liczbę.
+print("Numbers as a string:", MyArrays.to_minus_string(numbers))  # Wypisujemy liczby połączone znakiem minusa.
