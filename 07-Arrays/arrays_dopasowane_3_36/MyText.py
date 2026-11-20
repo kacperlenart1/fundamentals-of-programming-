@@ -10,4 +10,4 @@ def words_longest_first(text):  # Funkcja 2: zwraca tablicę słów posortowaną
 
 def words_alphabetical(text):  # Funkcja 3: zwraca tablicę słów posortowaną alfabetycznie.
     words = text.split()  # Pobieramy listę słów z tekstu.
-    return sorted(words)  # Sortujemy słowa alfabetycznie.
+    return sorted(words, key=str.lower)  # Sortujemy bez rozróżniania wielkości liter.
